@@ -5,5 +5,5 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(line){
-  console.log("hi")
+  return 'hi';
 }
