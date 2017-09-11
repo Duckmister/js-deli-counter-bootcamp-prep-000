@@ -1,8 +1,9 @@
-/*
-function takeANumber(katzDeliLine, name){
 
+function takeANumber(katzDeliLine, name){
+  katzDeliLine.push(name);
+  return katsDeliline.length;
 }
-*/
+
 function nowServing(line){
   if (line.length === 0){
     console.log("There is nobody waiting to be served!");
