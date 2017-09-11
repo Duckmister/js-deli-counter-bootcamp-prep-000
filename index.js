@@ -19,7 +19,7 @@ function currentLine(line){
   }else{
     var array = [];
     for(var i= 1; line.length +1 > i; i++){
-      array.push(i + '. ' + line[i-1]);
+      array.push(' ' + i + '. ' + line[i-1]);
     }
     return 'The line is currently: ' + array;
   }
