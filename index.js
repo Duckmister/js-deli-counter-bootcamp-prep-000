@@ -10,7 +10,7 @@ function nowServing(line){
   }else{
     var first = line[0];
     line.shift()
-    return "Currently serving " + first + ".");
+    return "Currently serving " + first + ".";
   }
 }
 
