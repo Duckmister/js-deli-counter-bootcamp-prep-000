@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name){
 
 function nowServing(line){
   if (line.length > 0){
-    console.log('Currently serving' + line[0]);
+    console.log('Currently serving');
     line.shift();
   }
   else{
