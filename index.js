@@ -5,11 +5,5 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(line){
-  if (line.length > 0){
-    console.log('Currently serving');
-    line.shift();
-  }
-  else{
-    console.log("There is nobody waiting to be served!");
-  }
+  console.log("hi")
 }
