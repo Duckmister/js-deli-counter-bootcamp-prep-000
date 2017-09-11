@@ -12,3 +12,15 @@ function nowServing(line){
     line.shift();
   }
 }
+
+function currentLine(line){
+  if (line === 0){
+    return "The line is currently empty.";
+  }else{
+    for(var= i; i< line.length; i++){
+      return i + '. ' + line[i];
+    }
+    
+  }
+}
+
