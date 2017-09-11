@@ -19,6 +19,5 @@ function currentLine(line){
   }else{
     return 'The line is currently: '
     }
-
   }
-}
+
