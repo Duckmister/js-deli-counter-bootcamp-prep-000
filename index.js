@@ -20,7 +20,6 @@ function currentLine(line){
     for(var= i; i< line.length; i++){
       return i + '. ' + line[i];
     }
-    
+
   }
 }
-
