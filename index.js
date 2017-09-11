@@ -1,6 +1,6 @@
 
-function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name);
+function takeANumber(katsDeliLine, name){
+  katsDeliLine.push(name);
   return katsDeliline.length;
 }
 
