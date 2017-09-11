@@ -1,7 +1,7 @@
 
-function takeANumber(katsDeliLine, name){
-  katsDeliLine.push(name);
-  return katsDeliline.length;
+function takeANumber(katzDeliLine, name){
+  katzDeliLine.push(name);
+  return katzDeliline.length;
 }
 
 function nowServing(line){
